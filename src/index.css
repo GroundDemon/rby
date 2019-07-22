@@ -1,13 +1,190 @@
+@import "./fonts.css";
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0; padding: 0;
+	font-family: "Lato", sans-serif;
+	color: #393939;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.App-Container {
+	margin: 0 auto 0 auto;
+	padding: 0;
+	position: relative;
+	width:100%;
+	max-width: 500px;
+	  box-sizing: border-box;
+	
 }
+
+.Page-Container {
+	margin: 0 ;
+	padding: 0;
+	position: relative;
+	width:100%;
+	
+}
+
+
+.Header {
+	position: absolute; top: 0; left: 0;
+	z-index: 99;
+	height: 64px;
+	width: 100%;
+	box-sizing: content-box;
+	align-items: center;
+	justify-content: center;
+	color: white;
+
+}
+
+.Header-Logo {
+	position: absolute; top: 0; left: 20px; height: 100%;
+	padding-left: 24px;
+	font-size: 21px;
+	line-height: 64px;
+	background-image: url('./img/logo.png'); 
+	background-repeat: no-repeat; 
+	background-size: 22px; 
+	background-position: 0px 19px;
+	font-family: "Lato-Black", sans-serif;
+	color: #040505;
+	text-decoration: none;
+}
+
+.Header-Twitter {
+	position: absolute; top: 0; right: 24px; height: 100%;
+	padding-left: 24px;
+	font-size: 22px;
+	line-height: 75px;
+	background-image: url('./img/twitter_logo.png'); 
+	background-repeat: no-repeat; 
+	background-size: 23px; 
+	background-position: 0px 21px;
+	font-family: "Lato-Black", sans-serif;
+	color: #040505;
+	text-decoration: none;
+}
+
+.Header-About {
+	position: absolute; top: 0; right: 64px; height: 100%;
+	padding-left: 24px;
+	font-size: 22px;
+	line-height: 75px;
+	background-image: url('./img/info_icon.png'); 
+	background-repeat: no-repeat; 
+	background-size: 19px; 
+	background-position: 0px 23px;
+	font-family: "Lato-Black", sans-serif;
+	color: #040505;
+	text-decoration: none;
+}
+
+
+.Header-Logo-Link:hover {
+	color: #82152B; 
+}
+
+.Page-Title {
+	position: relative; width: 100%;
+	margin: auto ;
+	padding: 150px 20px 0 20px;
+	font-size: 30px;
+	 box-sizing: border-box;
+}
+
+.Bold-Font {
+	font-family: "Lato-Black", sans-serif;
+}
+
+.Paragraph-Font {
+	font-size: 15px;
+	display: block;
+	line-height: 30px;
+
+}
+
+.Crack-In-Ground {
+	position: relative;
+	height: 410px;
+	width:100%;
+	background-image: url('./img/crack_in_ground.png'); 
+	background-size: 100% 100%; 
+}
+
+.Section-Header {
+	position: relative; width: 100%;
+	margin: auto ;
+	padding: 100px 20px 0 20px;
+	font-size: 26px;
+	font-family: "Lato-Black", sans-serif;
+	box-sizing: border-box;
+
+}
+
+.Columns {
+	position: relative; width: 100%;
+	margin: 0 0 0 0;
+	padding: 20px 10px 0 20px;
+	  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.History-Section {
+	position: relative;
+	float: left;
+	width:48%;
+	padding: 20px 20px 20px 20px;
+	margin-right: 2%;
+	font-size: 13px;
+	line-height: 30px;
+	break-inside: avoid;
+	border: 1px solid #E3E3E3;
+	margin-bottom: 10px;
+  	box-sizing: border-box;
+
+}
+
+.Asset {
+	position: relative;
+	float: left;
+	width:31%;
+	min-height: 140px;
+	padding: 52px 20px 20px 20px;
+	margin-right: 2%;
+	font-size: 13px;
+	line-height: 18px;
+	break-inside: avoid;
+	margin-bottom: 10px;
+  	box-sizing: border-box;
+  	background-image: url('./img/polygon.png'); 
+	background-size: 100% 100%; 
+	font-family: "Lato-Black", sans-serif;
+	text-align: center;
+}
+
+.Section-End {
+	clear: both;
+}
+
+.Year-End-Total {
+	font-family: "Lato-Black", sans-serif;
+	font-size: 26px;
+	display: block;
+	line-height: 40px;
+}
+
+
+.Twitter-Containter {
+	position: relative; width: 100%;
+	margin: 0;
+	padding: 20px 20px 0 20px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
